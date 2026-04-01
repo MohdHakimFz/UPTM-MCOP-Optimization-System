@@ -116,29 +116,29 @@ The following cost matrix represents travel costs between locations (in arbitrar
 UPTM_MCOP_Project/
 │
 ├── src/
-│ ├── Main.java # Driver program
-│ │
-│ ├── core/ # Core interfaces & objects
-│ │ ├── MCOPSolver.java # Strategy interface
-│ │ └── MCOPResult.java # Result object
-│ │
-│ ├── algorithms/ # TSP Algorithm implementations
-│ │ ├── GreedySolver.java
-│ │ ├── DynamicProgrammingSolver.java
-│ │ ├── BacktrackingSolver.java
-│ │ └── DivideAndConquerSolver.java
-│ │
-│ ├── datastructures/ # Advanced data structures
-│ │ ├── MinHeap.java
-│ │ └── SplayTree.java
-│ │
-│ └── utils/ # Utility classes
-│ ├── SortSearchUtils.java
-│ └── PerformanceLogger.java
+│   ├── Main.java
+│   │
+│   ├── core/
+│   │   ├── MCOPSolver.java
+│   │   └── MCOPResult.java
+│   │
+│   ├── algorithms/
+│   │   ├── GreedySolver.java
+│   │   ├── DynamicProgrammingSolver.java
+│   │   ├── BacktrackingSolver.java
+│   │   └── DivideAndConquerSolver.java
+│   │
+│   ├── datastructures/
+│   │   ├── MinHeap.java
+│   │   └── SplayTree.java
+│   │
+│   └── utils/
+│       ├── SortSearchUtils.java
+│       └── PerformanceLogger.java
 │
-├── results.csv # Exported performance results
-├── README.md # This file
-└── .gitignore # Git ignore configuration
+├── results.csv
+├── README.md
+└── .gitignore
 
 
 ---
